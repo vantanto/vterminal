@@ -1,0 +1,143 @@
+/* default */
+:root {
+	--dark-background: #2E3440;
+	--dark-foreground: #E5E9F0;
+	--dark-yellow: #5E81AC;
+	--dark-green: #A3BE8C;
+	--dark-gray: #88C0D0;
+	--dark-blue: #EBCB8B;
+	--dark-red: #BF616A;
+	--light-background: #FBF1C9;
+	--light-foreground: #3C3836;
+	--light-yellow: #D79921;
+	--light-green: #98971A;
+	--light-gray: #7C6F64;
+	--light-blue: #458588;
+	--light-red: #CA2124; 
+}
+
+/* gruvbox */
+:root {
+	--dark-background: #1c1c1c;
+	--dark-foreground: #EBDBB2;
+	--dark-yellow: #D79921;
+	--dark-green: #98971A;
+	--dark-gray: #A89984;
+	--dark-blue: #458588;
+	--dark-red: #CA2124;
+	--light-background: #FBF1C9;
+	--light-foreground: #3C3836;
+	--light-yellow: #D79921;
+	--light-green: #98971A;
+	--light-gray: #7C6F64;
+	--light-blue: #458588;
+	--light-red: #CA2124; 
+}
+
+/* dracula */
+:root {
+	--dark-background: #282a36;
+	--dark-foreground: #f8f8f2;
+	--dark-yellow: #ffb86c;
+	--dark-green: #50fa7b;
+	--dark-gray: #bd93f9;
+	--dark-blue: #8be9fd;
+	--dark-red: #ff5555;
+	--light-background: #FFFFDB;
+	--light-foreground: #282a36;
+	--light-yellow: #ffb86c;
+	--light-green: #50fa7b;
+	--light-gray: #8B6BB9;
+	--light-blue: #67AFC0;
+	--light-red: #ff5555; 
+}
+
+/* Nord */
+:root {
+	--dark-background: #2E3440;
+	--dark-foreground: #E5E9F0;
+	--dark-yellow: #5E81AC;
+	--dark-green: #A3BE8C;
+	--dark-gray: #88C0D0;
+	--dark-blue: #EBCB8B;
+	--dark-red: #BF616A;
+	--light-background: #E5E9F0;
+	--light-foreground: #2E3440;
+	--light-yellow: #5E81AC;
+	--light-green: #A3BE8C;
+	--light-gray: #88C0D0;
+	--light-blue: #EBCB8B;
+	--light-red: #BF616A; 
+}
+
+/* Monokai */
+:root {
+	--dark-background: #272822;
+	--dark-foreground: #F8F8F2;
+	--dark-yellow: #F4BF75;
+	--dark-green: #A6E22E;
+	--dark-gray: #AE81FF;
+	--dark-blue: #66D9EF;
+	--dark-red: #F92672;
+	--light-background: #F8F8F2;
+	--light-foreground: #272822;
+	--light-yellow: #F4BF75;
+	--light-green: #A6E22E;
+	--light-gray: #AE81FF;
+	--light-blue: #66D9EF;
+	--light-red: #F92672; 
+}
+
+/* Mocha */
+:root {
+	--dark-background: #3B3228;
+	--dark-foreground: #D0C8C6;
+	--dark-yellow: #F4BC87;
+	--dark-green: #BEB55B;
+	--dark-gray: #A89BB9;
+	--dark-blue: #8AB3B5;
+	--dark-red: #CB6077;
+	--light-background: #D0C8C6;
+	--light-foreground: #3B3228;
+	--light-yellow: #F4BC87;
+	--light-green: #BEB55B;
+	--light-gray: #A89BB9;
+	--light-blue: #8AB3B5;
+	--light-red: #CB6077; 
+}
+
+/* Solarized */
+:root {
+	--dark-background: #002B36;
+	--dark-foreground: #93A1A1;
+	--dark-yellow: #B58900;
+	--dark-green: #859900;
+	--dark-gray: #6C71C4;
+	--dark-blue: #268BD2;
+	--dark-red: #DC322F;
+	--light-background: #FDF6E3;
+	--light-foreground: #586E75;
+	--light-yellow: #B58900;
+	--light-green: #859900;
+	--light-gray: #6C71C4;
+	--light-blue: #268BD2;
+	--light-red: #DC322F; 
+}
+
+/* Solarized */
+:root {
+	--dark-background: #2F1E2E;
+	--dark-foreground: #A39E9B;
+	--dark-yellow: #FEC418;
+	--dark-green: #48B685;
+	--dark-gray: #815BA4;
+	--dark-blue: #06B6EF;
+	--dark-red: #EF6155;
+	--light-background: #A39E9B;
+	--light-foreground: #2F1E2E;
+	--light-yellow: #FEC418;
+	--light-green: #48B685;
+	--light-gray: #815BA4;
+	--light-blue: #06B6EF;
+	--light-red: #EF6155; 
+}

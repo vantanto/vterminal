@@ -27,8 +27,8 @@ div.console1 {
 }
 
 div.console1 div.jquery-console-inner {
-	width: 900px;
-	height: 90vh;
+	width: calc(100wh - 16px - 1rem);
+	height: calc(100vh - 16px - 1rem);
 	padding: 0.5em;
 	overflow: auto
 }

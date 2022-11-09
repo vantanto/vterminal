@@ -1,0 +1,195 @@
+:root {
+	--dark-background: #282a36;
+	--dark-foreground: #f8f8f2;
+	--dark-yellow: #ffb86c;
+	--dark-green: #50fa7b;
+	--dark-gray: #bd93f9;
+	--dark-blue: #8be9fd;
+	--dark-red: #ff5555;
+	--light-background: #FFFFDB;
+	--light-foreground: #282a36;
+	--light-yellow: #ffb86c;
+	--light-green: #50fa7b;
+	--light-gray: #8B6BB9;
+	--light-blue: #67AFC0;
+	--light-red: #ff5555;
+}
+
+div.console1,
+div.console2,
+div.console3 {
+	word-wrap: break-word;
+}
+
+/* First console */
+div.console1 {
+	font-size: 14px
+}
+
+div.console1 div.jquery-console-inner {
+	width: 900px;
+	height: 90vh;
+	padding: 0.5em;
+	overflow: auto
+}
+
+body.dark div.console1 div.jquery-console-inner {
+	background: var(--dark-background);
+}
+
+body.light div.console1 div.jquery-console-inner {
+	background: var(--light-background);
+}
+
+div.console1 div.jquery-console-prompt-box,
+.jquery-console-welcome {
+	font-family: monospace;
+}
+
+body.dark div.console1 div.jquery-console-prompt-box,
+body.dark .jquery-console-welcome {
+	color: var(--dark-foreground);
+}
+
+body.light div.console1 div.jquery-console-prompt-box,
+body.light .jquery-console-welcome {
+	color: var(--light-foreground);
+}
+
+div.console1 div.jquery-console-focus span.jquery-console-cursor {
+	font-weight: bold
+}
+
+body.dark div.console1 div.jquery-console-focus span.jquery-console-cursor {
+	background: var(--dark-foreground);
+	color: #333;
+}
+
+body.light div.console1 div.jquery-console-focus span.jquery-console-cursor {
+	background: var(--light-foreground);
+	color: #333;
+}
+
+div.console1 div.jquery-console-focus span.jquery-console-cursor {
+	-webkit-animation: blink 1s infinite;
+}
+
+div.console1 div.jquery-console-message-error {
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 0.1em;
+}
+
+body.dark div.console1 div.jquery-console-message-error {
+	color: var(--dark-red);
+}
+
+body.light div.console1 div.jquery-console-message-error {
+	color: var(--light-red);
+}
+
+div.console1 div.jquery-console-message-value,
+.jquery-console-welcome {
+	font-family: monospace;
+	padding: 0.1em;
+	margin-bottom: .5rem;
+}
+
+body.dark div.console1 div.jquery-console-message-value,
+body.dark .jquery-console-welcome {
+	color: var(--dark-foreground);
+}
+
+body.light div.console1 div.jquery-console-message-value,
+body.light .jquery-console-welcome {
+	color: var(--light-foreground);
+}
+
+body.dark div.console1 div.jquery-console-message-value a,
+body.dark .jquery-console-welcome a {
+	color: var(--dark-foreground);
+}
+
+body.light div.console1 div.jquery-console-message-value a,
+body.light .jquery-console-welcome a {
+	color: var(--light-foreground);
+}
+
+div.console1 div.jquery-console-message-type {
+	font-family: monospace;
+	padding: 0.1em;
+}
+
+body.dark div.console1 div.jquery-console-message-type {
+	color: var(--dark-gray);
+}
+
+body.light div.console1 div.jquery-console-message-type {
+	color: var(--light-gray);
+}
+
+div.console1 span.jquery-console-prompt-label {
+	font-weight: bold;
+}
+
+body.dark div.console1 span.jquery-console-prompt-label {
+	color: var(--dark-gray);
+}
+
+body.light div.console1 span.jquery-console-prompt-label {
+	color: var(--light-gray);
+}
+
+body.dark .text-yellow {
+	color: var(--dark-yellow);
+}
+
+body.light .text-yellow {
+	color: var(--light-yellow);
+}
+
+body.dark .text-green {
+	color: var(--dark-green)
+}
+
+body.light .text-green {
+	color: var(--light-green)
+}
+
+body.dark .text-gray {
+	color: var(--dark-gray)
+}
+
+body.light .text-gray {
+	color: var(--light-gray)
+}
+
+body.darl .text-blue {
+	color: var(--dark-blue);
+}
+
+body.light .text-blue {
+	color: var(--light-blue);
+}
+
+body.dark .text-red {
+	color: var(--dark-red);
+}
+
+body.light .text-red {
+	color: var(--light-red);
+}
+
+@-webkit-keyframes blink {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.pre {
+	white-space: pre;
+}

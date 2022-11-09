@@ -31,7 +31,7 @@ live-server
 
 Start editing `config.js` and try saving and see the updated changes!
 
-## 📄 Configuration
+## ⚙️ Configuration
 
 ### Basic Configuration
 

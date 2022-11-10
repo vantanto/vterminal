@@ -5,7 +5,6 @@ $(document).ready(function() {
 	const promptUsername = `<span class="text-yellow">${config.ps1_username}</span>`;
 	const promptHostname = `<span class="text-green">${config.ps1_hostname}</span>`;
 	const promptLabel = `${promptUsername}@${promptHostname}:$ ~ `;
-	const arithmetics = ['+', '-', '*', '/', '%', '**'];
 	/* Fifth console */
 	var console1 = $('#console1');
 	var controller = console1.console({
@@ -15,12 +14,9 @@ $(document).ready(function() {
 			const args = arg.split(" ");
 			if (args[0] == "clear") {
 				controller.clearScreen();
-			} else if (onlyNumberCalculation(arg) 
-				&& !isNaN(parseFloat(args[0])) 
-				// && arithmetics.includes(args[1]) 
-				&& !isNaN(parseFloat(args[2]))) {
+			} else if (onlyNumberCalculation(arg)) {
 				return [{
-					msg: args[0],
+					msg: eval(arg),
 					className: "jquery-console-message-value"
 				}];
 			} else if (Object.keys(bin).indexOf(args[0]) === -1) {
@@ -40,6 +36,6 @@ $(document).ready(function() {
 	});
 
 	function onlyNumberCalculation(str) {
-		return /^[A-Za-z0-9]$/.test(str);
+		return /^[\s\d()+%\/*,.-]*$/.test(str);
 	}
 })

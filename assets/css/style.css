@@ -141,43 +141,43 @@ body.light div.console1 span.jquery-console-prompt-label {
 }
 
 body.dark .text-yellow {
-	color: var(--dark-yellow);
+	color: var(--dark-yellow) !important;
 }
 
 body.light .text-yellow {
-	color: var(--light-yellow);
+	color: var(--light-yellow) !important;
 }
 
 body.dark .text-green {
-	color: var(--dark-green)
+	color: var(--dark-green) !important;
 }
 
 body.light .text-green {
-	color: var(--light-green)
+	color: var(--light-green) !important;
 }
 
 body.dark .text-gray {
-	color: var(--dark-gray)
+	color: var(--dark-gray) !important;
 }
 
 body.light .text-gray {
-	color: var(--light-gray)
+	color: var(--light-gray) !important;
 }
 
-body.darl .text-blue {
-	color: var(--dark-blue);
+body.dark .text-blue {
+	color: var(--dark-blue) !important;
 }
 
 body.light .text-blue {
-	color: var(--light-blue);
+	color: var(--light-blue) !important;
 }
 
 body.dark .text-red {
-	color: var(--dark-red);
+	color: var(--dark-red) !important;
 }
 
 body.light .text-red {
-	color: var(--light-red);
+	color: var(--light-red) !important;
 }
 
 @-webkit-keyframes blink {

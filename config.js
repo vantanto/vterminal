@@ -1,5 +1,5 @@
 export default {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
+  "readmeUrl": "https://raw.githubusercontent.com/vantanto/vantanto/master/README.md",
   "title": "VanTanto",
   "name": "Kristanto Margojoyo",
   "ascii": "vantanto",

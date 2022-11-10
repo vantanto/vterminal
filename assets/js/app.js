@@ -15,10 +15,17 @@ $(document).ready(function() {
 			if (args[0] == "clear") {
 				controller.clearScreen();
 			} else if (onlyNumberCalculation(arg)) {
-				return [{
-					msg: eval(arg),
-					className: "jquery-console-message-value"
-				}];
+				try {
+					return [{
+						msg: eval(arg),
+						className: "jquery-console-message-value"
+					}];
+				} catch {
+					return [{
+						msg: `shell: command not found: ${args[0]}. Try 'help' to get started.`,
+						className: "jquery-console-message-value"
+					}];
+				}
 			} else if (Object.keys(bin).indexOf(args[0]) === -1) {
 				return [{
 					msg: `shell: command not found: ${args[0]}. Try 'help' to get started.`,
@@ -36,6 +43,6 @@ $(document).ready(function() {
 	});
 
 	function onlyNumberCalculation(str) {
-		return /^[\s\d()+%\/*,.-]*$/.test(str);
+		return /^[\s\d()+%\/*.-]*$/.test(str);
 	}
 })
